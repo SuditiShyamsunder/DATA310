@@ -25,5 +25,5 @@ My model predicted that the numeral with the highest probability was the number 
 
 ### Question 6: Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
 
-![alt text]("https://suditishyamsunder.github.io/DATA310/image")
+![alt text]("https://suditishyamsunder.github.io/DATA310/image1.png")
 

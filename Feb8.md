@@ -24,6 +24,4 @@ There are 60,000 images in the training set, and they are each 28 by 28 pixels. 
 My model predicted that the numeral with the highest probability was the number 6. 
 
 ### Question 6: Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
-
-![alt text]("https://suditishyamsunder.github.io/DATA310/image1")
-
+![](image1.png)

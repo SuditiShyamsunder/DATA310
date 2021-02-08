@@ -12,10 +12,17 @@ The relu argument basically makes it so that if the output of a neuron is below 
 
 ### Question 3: In the past example we used the optimizer and loss function, while in this one we are using the function adam in the optimizer argument and sparse_categorical- crossentropy for the loss argument. How do the optimizer and loss functions operate to produce model parameters (estimates) within the model.compile() function?
 
+In order to make predictions, the optimizer and loss functions work together within the model.compile() function. Essentially, the model makes a prediction, and then the loss function determines how good or bad that particular prediction is. From there, the optimizer makes tweaks, which slowly accumulate to make more accurate preductions. The loss function basically determines the quality of the prediciton, while the optimizer keeps trying to better it. 
 
 
 ### Question 4: Using the mnist drawings dataset (the dataset with the hand written numbers with corresponding labels) answer the following questions. What is the shape of the images training set (how many and the dimension of each)? What is the length of the labels training set? What is the shape of the images test set?Estimate a probability model and apply it to the test set in order to produce the array of probabilities that a randomly selected image is each of the possible numeric outcomes (look towards the end of the basic image classification exercises for how to do this — you can apply the same method applied to the Fashion MNIST dataset but now apply it to the hand written letters MNIST dataset).
 
+There are 60,000 images in the training set, and they are each 28 by 28 pixels. The labels training set also has 60,000 values with one label corresponding to each image. The image test set contains 10,000 images that are each 28 by 28 pixels. I chose the 123rd image in the test set, and used the model to predict its value. 
+
 ### Question 5: Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
 
+My model predicted that the numeral with the highest probability was the number 6. 
+
 ### Question 6: Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")

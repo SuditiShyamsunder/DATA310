@@ -2,9 +2,9 @@
 ## 02/14/2021
 
 ### Videos
-[Input Video](https://youtu.be/nzTFi8NSLrs)
+[Input Video](https://youtu.be/R-tN1-g5HKk)
 
-[Output Video](https://youtu.be/R-tN1-g5HKk)
+[Output Video](https://youtu.be/nzTFi8NSLrs)
 
 ### Question 1: Was your social distance detector effective at detecting potential violations? Are you able to describe how the distance detector is applying its calculations of either being safe or noting a violation?
 

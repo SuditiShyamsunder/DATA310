@@ -5,12 +5,15 @@
 
 #### Picture 1
 ![](filter1.png)
+This filter darkens the image but keeps it relatively sharp
 
 #### Picture 2
 ![](filter2.png)
+This filter accentuates the straight lines
 
 #### Picture 3
 ![](filter3.png)
+This filter darkens and blurs the image
 
 ### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? 
 

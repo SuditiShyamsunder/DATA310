@@ -24,3 +24,4 @@ Applying a filter takes each set of 3x3 pixels and adds specific values to each 
 Pooling reduced the size of the image, which is useful because smaller images are easier to work with and use in models. A 2x2 filter essentially takes each set of 2x2 pixels and assigns them all the same value. In this exercise, we used max pooling, which is why the largest value is applied to all of the pixels but using the minimum or the average is probably useful in different situations. 
 
 ![](pooled.png)
+The pooled image is brighter and more clear 

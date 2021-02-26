@@ -30,17 +30,14 @@ The pooled image is brighter and more clear
 
 The resulting matrix is the following: 
 
-[[0, 0, 0, 3, 0, 0, 0], 
+![](matrix1.png)
 
+
+[[0, 0, 0, 3, 0, 0, 0], 
  [0, 0, 0, 3, 0, 0, 0], 
- 
  [1, 1, 1, 3, 1, 1, 1], 
- 
  [1, 1, 1, 3, 1, 1, 1],
- 
  [1, 1, 1, 3, 1, 1, 1],
- 
  [0, 0, 0, 3, 0, 0, 0],
- 
  [0, 0, 0, 3, 0, 0, 0]]
  

@@ -29,6 +29,7 @@ The pooled image is brighter and more clear
 ### Stretch Goal 
 
 The resulting matrix is the following: 
+
 [[0, 0, 0, 3, 0, 0, 0], 
 
  [0, 0, 0, 3, 0, 0, 0], 

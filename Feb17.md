@@ -30,7 +30,7 @@ The pooled image is brighter and more clear
 
 The resulting matrix is the following: 
 
-![](matrix1.png)
+![](Matrix1.png)
 
 
 [[0, 0, 0, 3, 0, 0, 0], 

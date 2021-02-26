@@ -25,3 +25,15 @@ Pooling reduced the size of the image, which is useful because smaller images ar
 
 ![](pooled.png)
 The pooled image is brighter and more clear 
+
+### Stretch Goal 
+
+The resulting matrix is the following: 
+[[0, 0, 0, 3, 0, 0, 0], 
+ [0, 0, 0, 3, 0, 0, 0], 
+ [1, 1, 1, 3, 1, 1, 1], 
+ [1, 1, 1, 3, 1, 1, 1],
+ [1, 1, 1, 3, 1, 1, 1],
+ [0, 0, 0, 3, 0, 0, 0], 
+ [0, 0, 0, 3, 0, 0, 0]]
+ 

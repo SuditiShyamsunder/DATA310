@@ -14,3 +14,5 @@
 
 ### Projects
 [Mini Project 02/14/2021](https://suditishyamsunder.github.io/DATA310/miniproject1)
+
+[Project 1](https://suditishyamsunder.github.io/DATA310/miniproject1)

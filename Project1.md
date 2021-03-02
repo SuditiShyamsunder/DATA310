@@ -5,10 +5,7 @@
 ### A description of the housing data you scraped from zillow
 I initially had 400 data points, but had to remove some due to incomplete or unusable date. Ultimately, I ended up with 376 data points corresponding to different homes in Austin, Texas. Each data point had information about its price, address, number of beds, number of baths, and its squarefootage. These data points were loaded into a csv file and then used to create a pandas dataframe. Here are some descriptive statistics about the collected data: 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
 
 ### A description of your model architecture
 Before building the model, I preprocessed the data into a form usable for the model. This included dropping a couple of bad data points as well as dividing all the values for squarefoot by 1000. Next, I created numpy arrays named x1, x2, and x3 that corresponded to each of the 3 features number of beds, squarefootage, and number of baths respectively. I next stacked them together into a variable called xs and made a variable called ys that included all the corresponding prices for the houses. I imported Tesorflow in order to help build the model. Next, I initialized the keras Sequential model with an input shape of 3. I then compiled the model with a stochastic gradient descent optimizer and mean squared error as the loss function. Finally, I fit the model based on the values in my xs and ys variables with 500 epochs. 

@@ -16,5 +16,7 @@ At this point, my model had been created, and it was time to start pretictions. 
 The model that I built was not super accurate for the most part, which I think is somewhat expected with only 3 features being used in predictions. The MSE values that I calculated tended to be pretty high. The 10 biggest over-predictions
 had an MSE of 535562223415.2863, and the 10 biggest under-predictions had a value of 23479729427135.414. Even the 10 most accurate results still had a pretty large MSE of 69908328585.21533. 
 
+![](graph2.png)
+
 ### An analysis of the output that assesses and ranks all homes from best to worst deal
 

@@ -16,9 +16,15 @@ At this point, my model had been created, and it was time to start pretictions. 
 The model that I built was not super accurate for the most part, which I think is somewhat expected with only 3 features being used in predictions. The MSE values that I calculated tended to be pretty high. The 10 biggest over-predictions
 had an MSE of 535562223415.2863, and the 10 biggest under-predictions had a value of 23479729427135.414. Even the 10 most accurate results still had a pretty large MSE of 69908328585.21533. 
 
-As seen by the graph below, a lot of the data points lie far away from the red line, which designates the points where the actual price is equal to the predicted price. 
+As seen by the graph below, a lot of the data points lie far away from the red line, which designates the points where the actual price is equal to the predicted price. Any value that lies above the line represents a home in which the predicted price is greater than the actual price, which corresponds to a good deal. Similarly, any value that lies below the line represents a home in which the predicted price is lower than the actual price, which corresponds to a bad deal. The closer the data point is to the line, the more accurate the modek was in predicting its price!
 
 ![](graph2.png)
 
 ### An analysis of the output that assesses and ranks all homes from best to worst deal
+
+The graph below shows each home along with the difference between the predicted value for its price and the actual value for its price. The greater the difference, the better the deal, and the more negative the difference, the worse the deal. Essenitally this means, values that are toward the top of the graph are better deals than those at the bottom. 
+
+![](graph3.png)
+
+As is clear with this graph, the model made quite a few underpredictions in which it predicted the price to be much smaller than its actual price. This may have to do with location because smaller homes could still be fairly expensive in certain neighborhoods, and the model wasn't able to take this into account. There are definitely many ways I could build upon this model to improve its accuracy, but I think it was pretty successful given the amount of data that was utilized!
 

@@ -16,3 +16,5 @@
 [Mini Project 02/14/2021](https://suditishyamsunder.github.io/DATA310/miniproject1)
 
 [Project 1](https://suditishyamsunder.github.io/DATA310/Project1)
+
+[Project 2](https://suditishyamsunder.github.io/DATA310/Project2)

@@ -49,14 +49,21 @@ still figuring out...
 
 ![](plot2.png)
 
-### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
+The above plots show that the model built is better than average but also does not have a great accuracy. The predicted probabilities are on the lower side of values, and there are much fewew in the higher range of values. The ROC curve does show that the model was better than random chance, and does not just follow a straight line across the diagonal. There are many ways that this model can be improved but it isn't too bad. 
+
+### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
 
 still figuring out... 
 
-### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+### Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
 ![](plot3.png)
 
 ![](plot4.png)
+
+The above plots show that the model built is better than average but also does not have the best accuracy. This plot looks better than the one above, which means that the gradient boosting model using decision trees was slightly more effective. Again, the predicted probabilities are on the lower side of values, and there are much fewer in the higher range of values. The ROC curve does show that the model was better than random chance, and does not just follow a straight line across the diagonal. There are many ways that this model can be improved but it is pretty good. 
+
+### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+
 
 

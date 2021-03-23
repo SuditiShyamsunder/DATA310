@@ -40,8 +40,7 @@ The random forest models were pretty similar to the logistic regression models t
 
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. 
 
-
-still figuring out...
+![](eval1.png)
 
 ### Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
@@ -53,7 +52,7 @@ The above plots show that the model built is better than average but also does n
 
 ### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
 
-still figuring out... 
+![](eval2.png)
 
 ### Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 

@@ -20,7 +20,21 @@ I chose the penalty value from the 16th point because it has the highest AUC as 
 
 By observing the graph above, it can be determined that the model is most effective for categories 1 and 5. It is decent for 4, okay for 2, and pretty bad for 3. This shows that more work could definitely be done in improving the model for the middle wealth incomes in comparison to the extremes.
 
-### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. 
+
+![](Rplot003.jpeg)
+
+Shown above is a plot of the minimal node size as well as randomly selected predictors. 
+
+### Provide your ROC plots and interpret them. 
+
+![](rf_auc.png)
+
+### How did your random forest model fare when compared to the penalized logistic regression? 
+
+The random forest models were pretty similar to the logistic regression models themselves. The same trends also hold betweeen the two types of models witht the 1st and 5th categories being the most accurate and categories 2-4 being the least. 
+
+### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
 
 

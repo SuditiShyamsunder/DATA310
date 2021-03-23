@@ -65,5 +65,6 @@ The above plots show that the model built is better than average but also does n
 
 ### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 
+The 4th model, which is the gradient boosting using decision trees was the best model. This can be seen by the ROC curve as well as the fact that it had an area under the curve closest to 1. However, all of the models had relatively similar results and did not very greatly. Additionally, all of the models were more effective at predicting values at the extremes and less effective with the middle values. This makes sense because the extremes are likely more distinct in terms of characterists than the middle values. Using more variables to help create these distinctions would likely improve these models in the future. 
 
 

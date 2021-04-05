@@ -14,7 +14,7 @@
 
 [03/10/2021](https://suditishyamsunder.github.io/DATA310/March10)
 
-[03/22/2021](https://suditishyamsunder.github.io/DATA310/March22)
+[03/22/2021](https://suditishyamsunder.github.io/DATA310/March22) 
 
 ### Projects
 [Mini Project 02/14/2021](https://suditishyamsunder.github.io/DATA310/miniproject1)

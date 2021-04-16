@@ -14,6 +14,7 @@ The plot above shows population distribution based on predicted values. You can 
 
 ![](green3.png)
 
+The graphs above show the diff_sums values throughout the country for the linear regression and random forest models respectively. The graphs look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
 
 
 

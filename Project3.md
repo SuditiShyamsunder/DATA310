@@ -8,7 +8,15 @@ The measure that I used to determine the relative accuracy of the models was dif
 
 ![](white1.png)
 
+The plot above shows population distribution based on predicted values. You can see that there is a high predicted population concentration at the center of the country. This is shown by the green region in the center, and the color faded to pink and then white as the distance gets closer to the coast. 
+
 ![](green1.png)
+
+![](green3.png)
+
+
+
+
 
 ![](white2.png)
 

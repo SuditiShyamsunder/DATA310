@@ -22,7 +22,7 @@ The validation method that I used to determine the relative accuracy of the mode
 
 ![](3d.png)
 
-By interpeting the graphs above, one can also see that the model tends to underpredict most in urban areas and cities as opposed to the more rural areas. 
+By interpeting the graphs above, one can also see that the model tends to underpredict most in urban areas and cities and overpredicted in the more rural areas. 
 
 
 ### Random Forest Model
@@ -48,11 +48,10 @@ The validation method that I used to determine the relative accuracy of the mode
 
 ![](3d2.png)
 
-Again, it appears that the model underpredicted more in areas that were more urban. 
+Again, it appears that the model underpredicted more in areas that were more urban.
 
 ### Comparing the 2 models 
 
-The graphs of the diff_sums for the two models look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
-
+The graphs of the diff_sums for the two models look pretty similar, which shows that they have similar accuracy levels. The actual population was 4513379, and the linear regression model predicted it to be 4514378 while the random forest predicted it to be 4460093. 
 
 

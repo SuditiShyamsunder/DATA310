@@ -16,7 +16,9 @@ The plot above shows population distribution based on predicted values from the 
 
 ![](green1.png)
 
-One validation method that I used to determine the relative accuracy of the models was diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the linear regression model. The variable population_sums contains the predicted value, and the variable cri_pop15 contains the actual value. In addition to the graph, looking at the min and max values for the linear regression model, you can see that the diff_sums values tend are sometimes negative and sometimes positive. If they are negative, the model tends to underpredict, and if they are positive the model tends to overpredict. The other validation method that I used was MSE, and this model had an MSE of 68160.89. 
+One validation method that I used to determine the relative accuracy of the models was diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the linear regression model. The variable population_sums contains the predicted value, and the variable cri_pop15 contains the actual value. In addition to the graph, looking at the min and max values for the linear regression model, you can see that the diff_sums values tend are sometimes negative and sometimes positive. If they are negative, the model tends to underpredict, and if they are positive the model tends to overpredict. The other validation method that I used was MSE, and this model had an MSE of 68160.89. The MSE plot is shown below. 
+
+![](mse1.png)
 
 ![](nums1.png)
 
@@ -42,7 +44,9 @@ The plot above shows population distribution based on predicted values from the 
 
 ![](green2.png)
 
-One validation method that I used to determine the relative accuracy of the models was again diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the random forest  model. In addition to the graph, if you look at the min and max values for the model, you can see that the diff_sums values tend to be negative. This means that the actual values must be larger than the predicted values, which means that the model tends to underpredict just like the linear regression model. Another validation method that I used was MSE, and this model had an MSE of 732890.35. 
+One validation method that I used to determine the relative accuracy of the models was again diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the random forest  model. In addition to the graph, if you look at the min and max values for the model, you can see that the diff_sums values tend to be negative. This means that the actual values must be larger than the predicted values, which means that the model tends to underpredict just like the linear regression model. Another validation method that I used was MSE, and the plot is shown below. 
+
+![](mse2.png)
 
 ![](nums2.png)
 

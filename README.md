@@ -22,3 +22,5 @@
 [Project 1](https://suditishyamsunder.github.io/DATA310/Project1)
 
 [Project 2](https://suditishyamsunder.github.io/DATA310/Project2)
+
+[Project 3](https://suditishyamsunder.github.io/DATA310/Project3)

@@ -16,7 +16,7 @@ The plot above shows population distribution based on predicted values from the 
 
 ![](green1.png)
 
-The validation method that I used to determine the relative accuracy of the models was diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the linear regression model. The variable population_sums contains the predicted value, and the variable cri_pop15 contains the actual value. In addition to the graph, if you look at the min and max values for the linear regression model, you can see that the diff_sums values tend to be negative. This means that the actual values must be larger than the predicted values, which means that the model tends to underpredict. 
+The validation method that I used to determine the relative accuracy of the models was diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the linear regression model. The variable population_sums contains the predicted value, and the variable cri_pop15 contains the actual value. In addition to the graph, looking at the min and max values for the linear regression model, you can see that the diff_sums values tend are sometimes negative and sometimes positive. If they are negative, the model tends to underpredict, and if they are positive the model tends to overpredict. 
 
 ![](nums1.png)
 
@@ -52,6 +52,8 @@ Again, it appears that the model underpredicted more in areas that were more urb
 
 ### Comparing the 2 models 
 
-The graphs of the diff_sums for the two models look pretty similar, which shows that they have similar accuracy levels. The actual population was 4513379, and the linear regression model predicted it to be 4514378 while the random forest predicted it to be 4460093. 
+The graphs of the diff_sums for the two models look pretty similar, which shows that they have similar accuracy levels. The actual population was 4513379, and the linear regression model predicted it to be 4514378 while the random forest predicted it to be 4460093. This shows that the linear regression model was more accurate and predicted a value closer to the actual value, while the random forest model underpredicted a bit too much. 
+
+In addition, there was spatial variation in the results. The urban centers were far more likely to be underpredicted. This might have something to do with the fact that night time lights was largely valued in the prediction model. While there are more lights in cities, the exact increase in lights is unlikely to be quite proportional to the drastic increase in population that occurs in cities. It makes sense that it is hard for the model to realize how many more poeple are living in that small area compared to the large regions of lower population. 
 
 

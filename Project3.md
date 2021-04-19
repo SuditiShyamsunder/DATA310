@@ -24,7 +24,7 @@ One validation method that I used to determine the relative accuracy of the mode
 
 ![](3d.png)
 
-By interpeting the graphs above, one can also see that the model tends to underpredict most in urban areas and cities and overpredicted in the more rural areas. 
+The diff_sums 3d plot is shown above. By interpeting it, one can also see that the model tends to underpredict most in urban areas and cities and overpredicted in the more rural areas. 
 
 
 ### Random Forest Model
@@ -52,7 +52,7 @@ One validation method that I used to determine the relative accuracy of the mode
 
 ![](3d2.png)
 
-Again, it appears that the model underpredicted more in areas that were more urban.
+Thw 3d diff_sums plot is shown above. Again, it appears that the model underpredicted more in areas that were more urban.
 
 ### Comparing the 2 models 
 

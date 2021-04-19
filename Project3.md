@@ -25,10 +25,6 @@ The validation method that I used to determine the relative accuracy of the mode
 By interpeting the graphs above, one can also see that the model tends to underpredict most in urban areas and cities as opposed to the more rural areas. 
 
 
-![](green3.png)
-
-The graphs above show the diff_sums values throughout the country for the linear regression and random forest models respectively. The graphs look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
-
 ### Random Forest Model
 
 ![](white2.png)
@@ -38,6 +34,12 @@ The plot above shows population distribution based on predicted values from the 
 ![](green2.png)
 
 The validation method that I used to determine the relative accuracy of the models was again diff_sums, which is the difference between the predicted population sum and the actual population sum. The graph above show the diff_sums values throughout the country for the random forest  model. In addition to the graph, if you look at the min and max values for the model, you can see that the diff_sums values tend to be negative. This means that the actual values must be larger than the predicted values, which means that the model tends to underpredict just like the linear regression model. 
+
+![](nums2.png)
+
+![](3d2.png)
+
+The graphs above show the diff_sums values throughout the country for the linear regression and random forest models respectively. The graphs look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
 
 
 

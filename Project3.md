@@ -27,6 +27,15 @@ By interpeting the graphs above, one can also see that the model tends to underp
 
 ### Random Forest Model
 
+Here is the relevance of each factor in the model:
+
+![](rf1.png)
+
+Here is the error in the model: 
+
+![](rf2.png)
+
+
 ![](white2.png)
 
 The plot above shows population distribution based on predicted values from the ransom forest model. This can be compared to the graph for diff_sums shown below
@@ -43,7 +52,7 @@ Again, it appears that the model underpredicted more in areas that were more urb
 
 ### Comparing the 2 models 
 
-The graphs above show the diff_sums values throughout the country for the linear regression and random forest models respectively. The graphs look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
+The graphs of the diff_sums for the two models look pretty similar, which shows that they have similar accuracy levels. It looks like the linear regression model had more areas of green, and the random forest had more white, pink, and yellow regions. The more negative the value, the more the model underpredicted in that region, and the closer to 0, the more accurate the model is at predicting for that region. 
 
 
 

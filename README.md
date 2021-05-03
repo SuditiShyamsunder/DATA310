@@ -25,4 +25,4 @@
 
 [Project 3](https://suditishyamsunder.github.io/DATA310/Project3)
 
-Project 4/Final Project
+[Project 4/Final Project](https://suditishyamsunder.github.io/DATA310/FinalProject)

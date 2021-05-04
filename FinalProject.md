@@ -9,14 +9,10 @@ Fetal mortality is a serious concern in countries throughout the world. In the U
 It is a goal of nations and health care providers globally to reduce fetal mortality rates and increase fetal health as a whole. In fact, Unicef lists one of their Sustainable Development Goals (SDGs) as aiming to end/reduce preventable deaths of newborns and children under 5 years of age within the next decade. In order to take that step, it is crucial to be able to measure and predict the health of a fetus. One way to measure fetal health is by using a machine known as a Cardiotocogram (CTG). These are not too complex and are a cheap and accessible way to measure fetal health. CTGs function by sending ultrasound pulses and reading the responses. This allows for the collection of fetal heart rate (FHR), fetal movements, uterine contractions, etc. Through this project, I am aiming to discover if a machine learning model can be used to predict fetal health based on these measurments from a CTG. 
 
 
-Data
-This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into 3 classes:
-
-Normal
-Suspect
-Pathological
-
 ### A description of the data that you are using as input for your applied machine learning methodology, including the source of the data, the different features (variables) and well as their data class (i.e. continuous or discrete). Be sure to include a description of your dataset size (number of rows / observations as well as number of columns / variables / features) and provide context on how the data was collected as well as the source organization, as it is relevant to your investigation. 
+
+In this project, I used a dataset from Kaggle that had 2126 records of measurements from Cardiotocograms. These measurements were then classified by OBGYNS into 3 categories: Normal, Suspect, and Pathological. The dataset includes 21 features that are all continuous variables. The features are 'baseline value', 'accelerations', 'fetal_movement', 'uterine_contractions', 'light_decelerations', 'severe_decelerations', 'prolongued_decelerations', 'abnormal_short_term_variability', 'mean_value_of_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability', 'mean_value_of_long_term_variability', 'histogram_width', 'histogram_min', 'histogram_max', 'histogram_number_of_peaks', 'histogram_number_of_zeroes', 'histogram_mode', 'histogram_mean', 'histogram_median', 'histogram_variance', and 'histogram_tendency'. The 22nd column, the target column, is called 'fetal_health' and includes a classification of 1, 2, or 3 corresponding to Normal, Suspect, and Pathological respectively. 
+
 
 ### Provide the specification for your applied machine learning method that presented the most promise in providing a solution to your problem. Include the section from your python or R script that specifies your model architecture, layers, functional arguments and specifications for compiling and fitting. Provide a brief description of how you implemented your code in practice. 
 

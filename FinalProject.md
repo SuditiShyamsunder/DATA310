@@ -25,4 +25,14 @@ In this project, I used a dataset from Kaggle that had 2126 records of measureme
 
 ### Provide the specification for your applied machine learning method that presented the most promise in providing a solution to your problem. Include the section from your python or R script that specifies your model architecture, layers, functional arguments and specifications for compiling and fitting. Provide a brief description of how you implemented your code in practice. 
 
+The most successful model that I built was a Logistic Regression Classification Model with Keras. The neural network that I built consisted of an input layer, hidden layers, and then an output layer. The input layer is where the measurements and observations are fed to the model, the hidden layers are wehrer the neural network makes connections between the data and learns about the data, and the output layer is where the final output is discovered. 
+
+Before I built the actual model, I had to do some data preprocessing. The data that was given to me was pretty clean overall, but I did manipulate it a bit to make it easiest to work with. I split the dataframe into 2 sections: 1 with all the feature columns and the other with the target column. I next used train_test_split() to split the data into training and testing subsets. 
+
+Below I have inluded the code that I used to build the model with its layers as well as compile/fit the model. After this step, I predicted the internal and external accuracies of the model. 
+
+![](five.png)
+
+
+
 ### Conclude with a section that preliminarily assesses model performance. If you have results from your implementation, you are welcome to add those in this section. Compare your preliminary results with those from the literature on your topic for a comparative assessment. If you are not able to produce preliminary results, provide a cursory literature review that includes 2 sources that present and describes their validation. With more time and project support, estimate what an ideal outcome looks like in terms of model validation.

@@ -33,6 +33,12 @@ Below I have inluded the code that I used to build the model with its layers as 
 
 ![](five.png)
 
-
-
 ### Conclude with a section that preliminarily assesses model performance. If you have results from your implementation, you are welcome to add those in this section. Compare your preliminary results with those from the literature on your topic for a comparative assessment. If you are not able to produce preliminary results, provide a cursory literature review that includes 2 sources that present and describes their validation. With more time and project support, estimate what an ideal outcome looks like in terms of model validation.
+
+The accuracy of my model was about 87% on the training dataset and 76% on the testing dataset. This is honestly much higher than I was expecting considering the length of this project, but I was pleasantly surprised! I think that this may have been due to the extremely clean dataset that I was able to find that made it easier to create a pretty solid model. However, in an article that I found from the NCBI that was classifying fetal health similarly, the researchers were able to achieve over 95% accuracy in their best models. I think this shows that that may be a threshhold that I could reach if I dug a little deeper and had some more time to work on this project. It also seems that 95% is the general threshhold to achieve in order for a model to be considered successful in research such as this that deals with medical data. 
+
+
+### Works Cited 
+https://www.pluralsight.com/guides/classification-keras
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822315/
+

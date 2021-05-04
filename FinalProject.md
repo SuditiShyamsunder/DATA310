@@ -13,6 +13,15 @@ It is a goal of nations and health care providers globally to reduce fetal morta
 
 In this project, I used a dataset from Kaggle that had 2126 records of measurements from Cardiotocograms. After these measurements were collected therough CTGs, they were then classified by OBGYNS into 3 categories: Normal, Suspect, and Pathological. The dataset includes 21 features that are all continuous variables. The features are 'baseline value', 'accelerations', 'fetal_movement', 'uterine_contractions', 'light_decelerations', 'severe_decelerations', 'prolongued_decelerations', 'abnormal_short_term_variability', 'mean_value_of_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability', 'mean_value_of_long_term_variability', 'histogram_width', 'histogram_min', 'histogram_max', 'histogram_number_of_peaks', 'histogram_number_of_zeroes', 'histogram_mode', 'histogram_mean', 'histogram_median', 'histogram_variance', and 'histogram_tendency'. The 22nd column, the target column, is called 'fetal_health' and includes a classification of 1, 2, or 3 corresponding to Normal, Suspect, and Pathological respectively. Here is a detailed summary of the dataset. 
 
+#### Features 
+![](one.png)
+
+![](two.png)
+
+![](three.png)
+
+#### Target 
+![](four.png)
 
 ### Provide the specification for your applied machine learning method that presented the most promise in providing a solution to your problem. Include the section from your python or R script that specifies your model architecture, layers, functional arguments and specifications for compiling and fitting. Provide a brief description of how you implemented your code in practice. 
 

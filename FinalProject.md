@@ -29,17 +29,19 @@ The most successful model that I built was a Logistic Regression Classification 
 
 Before I built the actual model, I had to do some data preprocessing. The data that was given to me was pretty clean overall, but I did manipulate it a bit to make it easiest to work with. I split the dataframe into 2 sections: 1 with all the feature columns and the other with the target column. I next used train_test_split() to split the data into training and testing subsets. 
 
-Below I have inluded the code that I used to build the model with its layers as well as compile/fit the model. After this step, I predicted the internal and external accuracies of the model. 
+Below I have included the code that I used to build the model with its layers as well as compile/fit the model. After this step, I predicted the internal and external accuracies of the model. 
 
 ![](five.png)
 
 ### Conclude with a section that preliminarily assesses model performance. If you have results from your implementation, you are welcome to add those in this section. Compare your preliminary results with those from the literature on your topic for a comparative assessment. If you are not able to produce preliminary results, provide a cursory literature review that includes 2 sources that present and describes their validation. With more time and project support, estimate what an ideal outcome looks like in terms of model validation.
 
-The accuracy of my model was about 87% on the training dataset and 76% on the testing dataset. This is honestly much higher than I was expecting considering the length of this project, but I was pleasantly surprised! I think that this may have been due to the extremely clean dataset that I was able to find that made it easier to create a pretty solid model. However, in an article that I found from the NCBI that was classifying fetal health similarly, the researchers were able to achieve over 95% accuracy in their best models. I think this shows that that may be a threshhold that I could reach if I dug a little deeper and had some more time to work on this project. It also seems that 95% is the general threshhold to achieve in order for a model to be considered successful in research such as this that deals with medical data. 
+The accuracy of my model was about 87% on the training dataset and 76% on the testing dataset. This is honestly much higher than I was expecting considering the length of this project, but I was pleasantly surprised! I think that this may have been due to the extremely clean dataset that I was able to find that made it easier to create a pretty solid model. However, in an article that I found from the NCBI that was classifying fetal health similarly, the researchers were able to achieve over 95% accuracy in their best models. I think this shows that that may be a threshold that I could reach if I dug a little deeper and had some more time to work on this project. In another article that I found, researchers build random forest models and achieved a 94.69% accuracy. It seems that 95% is the general threshold to achieve in order for a model to be considered successful in research such as this that deals with medical data. 
 
 
 ### Works Cited 
 https://www.pluralsight.com/guides/classification-keras
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822315/
+
+https://link.springer.com/chapter/10.1007/978-3-319-07773-4_19
 

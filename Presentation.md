@@ -10,7 +10,7 @@ Fetal mortality is a serious concern in countries throughout the world. In the U
 [Video of Presentation](https://youtu.be/kvMwvao4sRM)
 
 
-#### Works Cited 
+### Works Cited 
 https://www.pluralsight.com/guides/classification-keras
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822315/
